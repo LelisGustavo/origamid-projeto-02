@@ -1,0 +1,100 @@
+/* Fonte 01 = Poppins */
+/* Fonte 02 = Roboto */
+
+/* xs = extra small */
+/* s = small */
+/* m = medium */
+/* l = large */
+/* xl = extra large */
+/* xll = extra-extra large */
+
+.font-01-xs {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.font-01-s {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+.font-01-m {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.font-01-m-b {
+  /* font-weight font-size/line-height font-family*/
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.font-01-l {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.font-01-xl {
+  /* font-weight font-size/line-height font-family*/
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.font-01-xxl {
+  /* font-weight font-size/line-height font-family*/
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.font-02-xs {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+
+.font-02-s {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.font-02-m {
+  /* font-weight font-size/line-height font-family*/
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.font-02-l {
+  /* font-weight font-size/line-height font-family*/
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font-02-l-b {
+  /* font-weight font-size/line-height font-family*/
+  font: 500 1.5rem/1.5 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.font-02-xl {
+  /* font-weight font-size/line-height font-family*/
+  font: 500 2rem/1.125 "Roboto", sans-serif;
+}
+
+@media (max-width: 1200px) {
+
+  .font-01-xxl {
+    font-size: 3rem;
+  }
+
+  .font-02-l, .font-02-l-b {
+    font-size: 1.125rem;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .font-01-xxl {
+    font-size: 2rem;
+  }
+
+  .font-01-xl, .font-02-xl {
+    font-size: 1.5rem;
+  }
+
+}
