@@ -6,16 +6,21 @@
 /* Cores */
 @import "./utilidades/cores.css";
 
-/* Header/Menu */
+/* Header-Menu/Footer */
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
 
-/* Home/Introdução/Técnologia/Parceiros */
+/* Home/Introdução/Técnologia/Parceiros/Depoimento */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
