@@ -12,5 +12,10 @@
 /* Utilidades */
 @import "./utilidades/componentes.css";
 
-/* Introdução/Home */
+/* Home/Introdução/Técnologia/Parceiros */
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
