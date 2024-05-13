@@ -13,14 +13,20 @@
   <!-- Descrição -->
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
 
+  <!-- Favicon -->
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
   <!-- Css -->
-  <link rel="preload" href="style.css" as="style">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" href="./assets/css/style.min.css" as="style">
+  <link rel="stylesheet" href="./assets/css/style.min.css">
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Script -->
+  <script>document.documentElement.classList.add("js");</script>
 
 </head>
 
@@ -60,17 +66,17 @@
       <!-- Descrição Bikcraft -->
       <div class="introducao-conteudo">
 
-        <h1 class="font-01-xxl cor-00">Bicicletas feitas sob medida<span class="cor-primaria-01">.</span></h1>
-        <p class="font-02-l cor-05">
+        <h1 class="font-01-xxl cor-00 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-primaria-01">.</span></h1>
+        <p class="font-02-l cor-05 fadeInDown" data-anime="400">
           Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua
           velocidade com a Bikcraft.
         </p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <a class="botao fadeInDown" data-anime="600" href="./bicicletas.html">Escolha a sua</a>
 
       </div>
 
       <!-- Imagem bicicleta -->
-      <picture>
+      <picture class="fadeInDown" data-anime="800">
 
         <source media="(max-width: 800px)" srcset="./assets/img/bicicletas/nimbus.jpg">
         <img src="./assets/img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
@@ -333,6 +339,10 @@
     </div>
 
   </footer>
+
+  <!-- Script -->
+  <script src="./assets/js/plugins/simple-anime.js"></script>
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
